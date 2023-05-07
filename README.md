@@ -1,6 +1,8 @@
 # PSS strona PHP i CMS
 Strona PHP oraz strona w CMS na zaliczenie przedmiotu
+
 Jeszcze niewykonane zadania: 2, 3, 4, 6, 7
+
 Wykonane zadania: 5
 
 Folder "pss_5" zawiera pracę zaliczeniową na zadanie 5 - Witryna na CMS uwzględniająca wbudowane szablony widoku (po instalacji i dodaniu treści)

@@ -1,0 +1,120 @@
+.messages { }
+.messages ul { list-style-type: none; padding: 0; }
+.msg{
+	border-radius: 0.5em;
+	padding: 1em;
+	margin-bottom: 0.5em;
+	box-shadow: 0.2em 0.2em 0.4em #ccc;
+}
+.error{	background-color: #f88; }
+.warning{ background-color: #fd2; }
+.info{ background-color: #afa; }
+
+.bottom-margin{
+	margin-bottom: 1em;
+}
+
+.top-margin{
+	margin-top: 1em;
+}
+
+.button-success,
+.button-error,
+.button-warning,
+.button-secondary {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-success {
+    background: rgb(28, 184, 65); /* this is a green */
+}
+
+.button-error {
+    background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.button-warning {
+    background: rgb(223, 117, 20); /* this is an orange */
+}
+
+.button-secondary {
+    background: rgb(66, 184, 221); /* this is a light blue */
+}
+
+.button-xsmall {
+    font-size: 70%;
+}
+
+.button-small {
+    font-size: 85%;
+}
+
+.button-large {
+    font-size: 110%;
+}
+
+.button-xlarge {
+    font-size: 125%;
+}
+
+/* Paginacja źródło https://www.youtube.com/watch?v=kJj8RR3SNTc*/
+/* Google font Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container,
+.button,
+.links,
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    padding: 20px;
+    border-radius: 8px;
+    column-gap: 12px;
+    background: #fff;
+}
+.button {
+    border: none;
+}
+.button i {
+    pointer-events: none;
+}
+.button:disabled{
+    color: #b3b3b3;
+    pointer-events: none;
+}
+.button,
+.link{
+    height: 45px;
+    width: 45px;
+    font-size: 20px;
+    color: #666666;
+    background-color: #f2f2f2;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.links{
+    column-gap: 12px;
+}.link {
+    font-weight: 500;
+    text-decoration: none;
+}
+.button:hover,
+.link:hover{
+    color: #fff;
+    background: #4070f4;
+}
+.link.active {
+    color: #fff;
+    background: #4070f4;
+}
